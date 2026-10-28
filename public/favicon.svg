@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Scribbl app icon</title>
+  <desc id="desc">A minimal writing tablet with a flowing blue handwriting stroke and stylus, in the Scribbl brand style.</desc>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="40" x2="448" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="1" stop-color="#020609"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="145" y1="146" x2="376" y2="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36B8FF"/>
+      <stop offset="1" stop-color="#008BD8"/>
+    </linearGradient>
+    <filter id="shadow" x="70" y="65" width="390" height="400" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+
+  <!-- App tile -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)"/>
+  <rect x="17" y="17" width="478" height="478" rx="111" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="2"/>
+
+  <!-- Soft grounding shadow -->
+  <rect x="91" y="103" width="330" height="316" rx="54" fill="#000000" opacity=".42" filter="url(#shadow)"/>
+
+  <!-- Writing surface -->
+  <rect x="88" y="88" width="336" height="336" rx="52" fill="#F8FBFD"/>
+  <rect x="89.5" y="89.5" width="333" height="333" rx="50.5" stroke="#DCE7EE" stroke-width="3"/>
+
+  <!-- Subtle ruled guides -->
+  <path d="M137 190H374 M137 258H374 M137 326H322" stroke="#DCE8EF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Handwriting gesture -->
+  <path d="M143 281
+           C161 251 177 220 195 220
+           C212 220 204 283 224 283
+           C240 283 249 242 263 242
+           C280 242 271 301 293 301
+           C308 301 321 276 339 256"
+        fill="none" stroke="url(#blue)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M143 281
+           C161 251 177 220 195 220
+           C212 220 204 283 224 283
+           C240 283 249 242 263 242
+           C280 242 271 301 293 301
+           C308 301 321 276 339 256"
+        fill="none" stroke="#FFFFFF" stroke-opacity=".32" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Stylus: angled, crisp silhouette -->
+  <g transform="translate(0 0) rotate(38 342 166)">
+    <rect x="326" y="112" width="32" height="142" rx="15" fill="#101820"/>
+    <path d="M326 127Q326 112 342 112Q358 112 358 127V143H326Z" fill="#008BD8"/>
+    <path d="M326 229H358L342 267Z" fill="#101820"/>
+    <path d="M335 121V220" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="3" stroke-linecap="round"/>
+    <rect x="326" y="143" width="32" height="9" fill="#FFFFFF" opacity=".12"/>
+  </g>
+
+  <!-- Brand-blue signature dot -->
+  <circle cx="372" cy="365" r="10" fill="#008BD8"/>
+</svg>
