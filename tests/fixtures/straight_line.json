@@ -1,0 +1,20 @@
+{
+  "drill": "line_horizontal",
+  "strokes": [
+    {
+      "id": "line_1",
+      "tool": "pen",
+      "color": "#008bd8",
+      "size": 4,
+      "opacity": 1,
+      "timestamp": 2000,
+      "points": [
+        { "x": 50, "y": 200, "pressure": 0.5, "t": 2000 },
+        { "x": 150, "y": 201, "pressure": 0.52, "t": 2050 },
+        { "x": 250, "y": 200, "pressure": 0.53, "t": 2100 },
+        { "x": 350, "y": 199, "pressure": 0.51, "t": 2150 },
+        { "x": 450, "y": 200, "pressure": 0.5, "t": 2200 }
+      ]
+    }
+  ]
+}

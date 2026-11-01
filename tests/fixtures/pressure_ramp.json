@@ -1,0 +1,22 @@
+{
+  "drill": "pressure_ramp",
+  "strokes": [
+    {
+      "id": "ramp_1",
+      "tool": "pen",
+      "color": "#008bd8",
+      "size": 4,
+      "opacity": 1,
+      "timestamp": 4000,
+      "points": [
+        { "x": 100, "y": 300, "pressure": 0.1, "t": 4000 },
+        { "x": 150, "y": 300, "pressure": 0.22, "t": 4050 },
+        { "x": 200, "y": 300, "pressure": 0.35, "t": 4100 },
+        { "x": 250, "y": 300, "pressure": 0.5, "t": 4150 },
+        { "x": 300, "y": 300, "pressure": 0.65, "t": 4200 },
+        { "x": 350, "y": 300, "pressure": 0.78, "t": 4250 },
+        { "x": 400, "y": 300, "pressure": 0.9, "t": 4300 }
+      ]
+    }
+  ]
+}
